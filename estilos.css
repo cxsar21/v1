@@ -7,6 +7,12 @@
 
 body{
 background:url(0001.jpg);
+margin: 0;
+padding: 0;
+height: 100vh; /* Establece la altura al 100% del viewport height */
+background-size: cover; /* O puedes usar '100% 100%' para ajustar al 100% de ancho y altura */
+background-position: center; /* Centra la imagen */
+
 }
 
 .header-content{
